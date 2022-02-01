@@ -1,0 +1,227 @@
+<!doctype html>
+
+<html lang="en">
+    <head>
+        <title>CV 2022</title>
+        <meta charset="utf-8">
+        <meta name="author" content="SitePoint">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+        <link rel="stylesheet" href="style.css">
+
+    </head>
+
+    <body>
+        <nav class="navigation" id="contact-info">
+            <ul class="nav-list nav-margins">
+                <div class="burger"></div>
+                <li class="nav-inline-1">
+                    <span class="nav-text" id="">
+                        <a href="#contact-info">
+                            Contact Info
+                        </a>
+                    </span>
+                </li>
+                <li class="nav-inline-2">
+                    <span class="nav-text" id="my-skills-nav">
+                        <a href="#my-skills">
+                            My Skills
+                        </a>
+                    </span>
+                </li>
+                <li class="nav-inline-3">
+                    <span class="nav-text">
+                        <a href="#code-example">
+                            Code Example
+                        </a>
+                    </span>
+                </li>
+                <li class="nav-inline-4">
+                    <span class="nav-text">
+                        <a href="#about-me">
+                            About Me
+                        </a>
+                    </span>
+                </li>
+                <li class="nav-inline-5">
+                    <span class="nav-text">
+                        <a href="CV-2022.pdf" download="">
+                            Download CV
+                        </a>
+                    </span>
+                </li>
+              </ul>
+        </nav>
+        <header>
+            <div class="header-left">
+                <div class="main-photo">
+                    <div class="circle-image">
+                        <img  src="images/myPhoto.jpg" alt="my_photo">
+                    </div>
+                </div>
+                <div class="main-text">
+                    <h1>
+                        Kamill Schepuk, <br>
+                        Web Developer
+                    </h1>
+                </div>
+            </div> 
+            <div class="header-right">
+                <div class="contacts-text">
+                    <h2>Contacts:</h2>
+                </div>
+                <div>
+                    <ul>
+                        <li class="contact-info">
+                            <span class="wide-text">Phone:</span> +375(29)960-66-68
+                        </li>
+                        <li class="contact-info">
+                            <span class="wide-text">Mail:</span> kamillschepuk@gmail.com
+                        </li>
+                        <li class="contact-info">
+                            <span class="wide-text">Instagram:</span> @amgod_1
+                        </li>
+                        <li class="contact-info">
+                            <span class="wide-text">Discord:</span> AM GOD (#8116)
+                        </li>
+                    </ul>
+                </div>
+            </div>  
+        </header>
+        <section class="skills-full">
+            <div class="nav-info">
+                <h2 id="my-skills">
+                    My Skills:
+                </h2>
+            </div>
+            <div class="programm-lang">
+                <div class="center-lang">
+                    <img class="lang-img" src="images/html.png" alt="html logo"> 
+                    <div class="lang-text">
+                        <p class="languages">HyperText Markup Language</p>
+                    </div>
+                </div>
+                <div class="center-lang">
+                    <img class="lang-img" src="images/css.png" alt="css logo"> 
+                    <div class="lang-text">
+                        <p class="languages">Cascading Style Sheets</p>
+                    </div>
+                </div>
+                <div class="center-lang">
+                    <img class="lang-img" src="images/js.png" alt="js logo"> 
+                    <div class="lang-text">
+                        <p class="languages">Java Script</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <main>
+            <div class="nav-info">
+                <h2 id="code-example">
+                    Code Example:
+                </h2>
+            </div>
+            <div class="code">
+                <p class="code-text">
+                <span class="purple">function</span> nbMonths(priceOld, priceNew, savingperMonth, percentLossByMonth){<br>
+                &nbsp&nbsp&nbsp&nbsp&nbsp <span class="purple">var</span> n = 0;<br>
+                &nbsp&nbsp&nbsp&nbsp&nbsp <span class="purple">while</span> (savingperMonth * n + priceOld < priceNew){<br>
+                &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp n++;<br>
+                &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp <span class="purple">if</span> (n % 2 == 0) percentLossByMonth += 0.5; <br>
+                &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp priceOld *= (100 - percentLossByMonth) / 100;<br>
+                &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp priceNew *= (100 - percentLossByMonth) / 100;<br>
+                &nbsp&nbsp&nbsp&nbsp&nbsp }<br>
+                &nbsp&nbsp&nbsp&nbsp&nbsp <span class="purple">return</span> [n, Math.round(n * savingperMonth + priceOld - priceNew)];<br>
+                }<br>
+            </div>
+        </main>
+        <article>
+            <div class="nav-info">
+                <h2 id="about-me">
+                    About Me:
+                </h2>
+            </div>
+            <div class="interests-info">
+                <div class="about-info-list">
+                    <div class="about-list-all">
+                        <div class="about-text">
+                            <h2>Main Strengths:</h2>
+                        </div>
+                        <div class="interests">
+                            <ul>
+                                <li class="contact-info">
+                                    Goal-oriented
+                                </li>
+                                <li class="contact-info">
+                                    Hardworking
+                                </li>
+                                <li class="contact-info">
+                                    Sociable
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="about-list-all">
+                        <div class="about-text">
+                            <h2>My Interests:</h2>
+                        </div>
+                        <div class="interests">
+                            <ul>
+                                <li class="contact-info">
+                                    Making Music
+                                </li>
+                                <li class="contact-info">
+                                    Programming
+                                </li>
+                                <li class="contact-info">
+                                    Working Out
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="about-list-all">
+                        <div class="about-text">
+                            <h2>Languages:</h2>
+                        </div>
+                        <div class="interests">
+                            <ul>
+                                <li class="contact-info">
+                                    English
+                                </li>
+                                <li class="contact-info">
+                                    Polish
+                                </li>
+                                <li class="contact-info">
+                                    Russian
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </article>
+        <br><br>
+        <div class="arrow-up">
+            <a href="#contact-info" class="scroll-link">
+                <img src="images/arrow-up.png" alt="arrow up" width="40px">
+                <h2>
+                    Back To Top
+                </h2>
+                <img src="images/arrow-up.png" alt="arrow up" width="40px">
+            </a>
+        </div>
+        <footer>
+            
+            <div class="footer__items">
+                <div class="author"><a href="https://github.com/amgod1">SCHEPUK KAMILL</a></div>
+                <div class="year">© 2022</div>
+                <div>
+                    <a href="https://rs.school/js/">
+                        <img class="rs_school" src="https://rs.school/images/rs_school.svg" alt="rs school">
+                    </a>
+                </div>
+            </div>
+        </footer>
+        <script src="script.js"></script>
+    </body>
+</html>
