@@ -134,7 +134,7 @@ header {
 
 .nav-info {
     padding-left: 50px;
-    margin-top: 15px;
+    padding-top: 15px;
     padding-bottom: 15px;
     background-color: #AD66D5;
 }
@@ -150,15 +150,6 @@ header {
     justify-content: center;
     margin-top: 10px;
     gap: 50px;
-}
-
-.lang-img {
-    box-shadow: 0;
-    transition: box-shadow 1s;
-}
-
-.lang-img:hover {
-    box-shadow: 5px 5px 20px #515151;
 }
 
 .lang-img {
@@ -179,6 +170,7 @@ header {
 }
 
 .center-lang {
+    width: 253px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -209,21 +201,39 @@ header {
     gap: 75px;
 }
 
-.code {
-    background-color: #A9F16C;
-    padding-top: 25px;
-    padding-bottom: 25px;
+.projects {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-around;
+    background-color: #A9F16C;
+    padding-bottom: 20px;
 }
 
-.code-text {
+.project__ph {
+    width: 300px;
+    height: 280px;
+    border: black 1px;
+    margin-top: 20px;
+    position: relative;
+    top: 3px;
+}
+
+.project__text {
+    font-weight: bold;
     font-size: 20px;
+    padding-top: 20px;
+    text-align: center;
 }
 
-.purple {
-    color: #9F3ED5;
+.my-projects__link {
+    box-shadow: 0;
+    transition: box-shadow 1s;
+    transition: background-color 1s;
+}
+
+.my-projects__link:hover {
+    box-shadow: 5px 5px 20px #515151;
+    background-color: #FFFF73;;
 }
 
 .arrow-up {

@@ -31,8 +31,8 @@
                 </li>
                 <li class="nav-inline-3">
                     <span class="nav-text">
-                        <a href="#code-example">
-                            Code Example
+                        <a href="#my-projects">
+                            My Projects
                         </a>
                     </span>
                 </li>
@@ -89,8 +89,8 @@
             </div>  
         </header>
         <section class="skills-full">
-            <div class="nav-info">
-                <h2 id="my-skills">
+            <div class="nav-info" id="my-skills">
+                <h2>
                     My Skills:
                 </h2>
             </div>
@@ -116,23 +116,30 @@
             </div>
         </section>
         <main>
-            <div class="nav-info">
-                <h2 id="code-example">
-                    Code Example:
+            <div class="nav-info" id="my-projects">
+                <h2>
+                    My Projects:
                 </h2>
             </div>
-            <div class="code">
-                <p class="code-text">
-                <span class="purple">function</span> nbMonths(priceOld, priceNew, savingperMonth, percentLossByMonth){<br>
-                &nbsp&nbsp&nbsp&nbsp&nbsp <span class="purple">var</span> n = 0;<br>
-                &nbsp&nbsp&nbsp&nbsp&nbsp <span class="purple">while</span> (savingperMonth * n + priceOld < priceNew){<br>
-                &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp n++;<br>
-                &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp <span class="purple">if</span> (n % 2 == 0) percentLossByMonth += 0.5; <br>
-                &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp priceOld *= (100 - percentLossByMonth) / 100;<br>
-                &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp priceNew *= (100 - percentLossByMonth) / 100;<br>
-                &nbsp&nbsp&nbsp&nbsp&nbsp }<br>
-                &nbsp&nbsp&nbsp&nbsp&nbsp <span class="purple">return</span> [n, Math.round(n * savingperMonth + priceOld - priceNew)];<br>
-                }<br>
+            <div class="projects">
+                <a href="https://amgod1.github.io/artquiz/artquiz" class="my-projects__link" target="_blank">
+                    <div class="my-projects-wrapper">
+                        <h5 class="project__text">Art Quiz</h5>
+                        <img src="images/art-quiz.jpg" alt="art quiz photo" class="project__ph">
+                    </div>
+                </a>
+                <a href="https://rolling-scopes-school.github.io/amgod1-JSFE2022Q1/shelter/pages/main/index.html" class="my-projects__link" target="_blank">
+                    <div class="my-projects-wrapper">
+                        <h5 class="project__text">Cozy House</h5>
+                        <img src="images/cozy-house.jpg" alt="cozy house photo" class="project__ph">
+                    </div>
+                </a>
+                <a href="https://rolling-scopes-school.github.io/amgod1-JSFE2022Q1/virtual%20keyboard/index.html" class="my-projects__link" target="_blank">
+                    <div class="my-projects-wrapper">
+                        <h5 class="project__text">Virtual Keyboard</h5>
+                        <img src="images/virtual-keyboard.jpg" alt="virtual keyboard photo" class="project__ph">
+                    </div>
+                </a>
             </div>
         </main>
         <article>
@@ -211,7 +218,6 @@
             </a>
         </div>
         <footer>
-            
             <div class="footer__items">
                 <div class="author"><a href="https://github.com/amgod1">SCHEPUK KAMILL</a></div>
                 <div class="year">© 2022</div>
